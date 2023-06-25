@@ -189,6 +189,6 @@ TIME_ZONE = 'America/Argentina/Buenos_Aires'
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
-SESSION_COOKIE_AGE = 0
+
 
 
