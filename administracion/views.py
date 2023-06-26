@@ -350,7 +350,7 @@ class ReservationDeleteView(DeleteView):
 
 class GuestListView(ListView):
     model = Guest
-    template_name = 'administracion/huespedes/guest_list.html'
+    template_name = 'administracion/Huespedes/guest_list.html'
     context_object_name = 'guests'
 
     def get_context_data(self, **kwargs):
