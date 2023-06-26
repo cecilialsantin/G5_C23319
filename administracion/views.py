@@ -76,7 +76,7 @@ def index_admin(request):
             total_guests = campsite['total_guests']
             total_capacity = campsite['total_capacity']
 
-            if total_capacity:
+            if total_guests is not None and total_capacity is not None and total_capacity > 0:
                 occupancy_percentage = (total_guests / total_capacity) * 100
             else:
                 occupancy_percentage = 0
